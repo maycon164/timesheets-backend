@@ -1,3 +1,28 @@
+# Timesheet
+Is an application that tracks time worked in a project
+
+## Premises
+I need an application where i can register the time a spent working in a project, i want to generate a report to send as "ticket" for the costumer so he can pay me
+
+- the system should let me create a project specifying name, description, company, price per hour
+- the system should let me choose a project to save entry
+- the system should have a clock with start and stop to register an entry
+- the system should let me put a description when creating an entry
+- The system should save an entry for a project registered in the app
+- the system should let me export a report with filters by month, weak, custom
+- the system should calculate total money to be received
+- the system should let me see all entries for a selected project
+- the system should save reports generated
+- the system should let me save data to receive the payment on the report
+- the system should be available as a mobile application
+
+### TECHNOLOGIES
+<p>NestJs - API Backend</p>
+<p>ReactNative - AndroidApplication</p>
+<p>Postgress - Database</p>
+<p>AWS - infraestructure</p>
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
